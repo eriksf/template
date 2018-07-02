@@ -19,15 +19,14 @@ Uploading a file:
 
 ..
 
-.. container:: solution
+.. container:: foldable
 
-    .. container:: curl
+    .. container:: header
 
         :fa:`caret-right`
         **cURL**
 
     .. code:: shell
-      :class: foldable
 
         curl -sk -H "Authorization: Bearer $ACCESS_TOKEN" \
             -X POST \

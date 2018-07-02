@@ -1,14 +1,10 @@
 $(document).ready(function() {
-    $(".solution").click(function(event) {
-        var trigger = $(event.target).filter(".curl");
-        if (trigger) {
-            $("> .foldable", this).toggle(400);
-            $("> .curl > em", this).toggleClass("fa-caret-right fa-caret-down");
-            event.stopPropagation();
-        }
+    $(".foldable").click(function(event) {
+        $(this).children().not(".header").toggle(400);
+        $(this).children(".header").find("em").toggleClass("fa-caret-right fa-caret-down");
+        event.stopPropagation();
     });
 
-    $('.solution').each(function() {
-        $("> .foldable", this).hide();
-    });
+    $(".foldable > *").hide();
+    $(".foldable .header").show();
 });
