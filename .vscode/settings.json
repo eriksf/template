@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "/Users/eriksf/.pyenv/versions/3.6.5/bin/python",
+    "restructuredtext.builtDocumentationPath" : "${workspaceRoot}/docs/_build/html",
+    "restructuredtext.confPath"               : "${workspaceRoot}/docs",
+    "restructuredtext.updateOnTextChanged"    : "true",
+    "restructuredtext.updateDelay"            : 300,
+    "restructuredtext.sphinxBuildPath"        : "/Users/eriksf/.local/bin/sphinx-build"
+}
