@@ -1,15 +1,12 @@
-========
-Usage
-========
+=================
+Transferring data
+=================
 
-To use this template, simply update it::
+Before we talk about how to do basic operations on your data, let's first talk about how you can move your data around. You already have a storage system available to you, so we will start with the "hello world" of data movement, uploading a file.
 
-	import read-the-docs-template
-
-
------------------
-Uploading a file:
------------------
+----------------
+Uploading a file
+----------------
 
 **CLI**
 
