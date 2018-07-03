@@ -13,9 +13,9 @@ Uploading a file(s):
 
 **CLI**
 
-.. code:: text
+.. code:: shell
 
-    files-upload -v -F files/picksumipsum.txt -S api.tacc.cloud nryan
+    $ files-upload -v -F files/picksumipsum.txt -S api.tacc.cloud nryan
 
 ..
 
@@ -28,7 +28,7 @@ Uploading a file(s):
 
     .. code:: shell
 
-        curl -sk -H "Authorization: Bearer $ACCESS_TOKEN" \
-            -X POST \
-            -F "fileToUpload=@files/picksumipsum.txt" \
-            https://tacc.cloud/files/v2/media/api.tacc.cloud/nryan
+        $ curl -sk -H "Authorization: Bearer $ACCESS_TOKEN" \
+             -X POST \
+             -F "fileToUpload=@files/picksumipsum.txt" \
+             https://tacc.cloud/files/v2/media/api.tacc.cloud/nryan
